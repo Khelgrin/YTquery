@@ -35,8 +35,8 @@ except:
 #API KEY ACCREDITATION
 api_service_name = "youtube"
 api_version = "v3"
-DEVELOPER_KEY = "AIzaSyCn5vJlv3gvO3pDSBbTJn55JCzrRi33AfM"
-#Alternative DEVELOPER KEY for work  AIzaSyCQqMzFVZGqAapmOaScbWLqYQUlr2TIAkc
+DEVELOPER_KEY = "your dev key"
+
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey = DEVELOPER_KEY)
 
